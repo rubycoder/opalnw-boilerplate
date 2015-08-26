@@ -1,0 +1,16 @@
+%h1
+	This is a template.
+%h2
+	You can put more templates in this app/views folder, and include them from opal by doing
+%pre
+	Template['views/templatename.haml'].render()
+%p
+	Of course, you can evaluate Ruby code here:
+%p
+	=(1..10).map{|x| x**2}.join('---')
+
+%hr
+
+%p
+	It's also possible to pass an object to render, which can then be referenced as "self" from within the .haml view.
+	

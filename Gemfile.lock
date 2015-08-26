@@ -1,0 +1,95 @@
+GIT
+  remote: git://github.com/opal/opal-haml.git
+  revision: 204ac706b0bf3aa09fc2f10851a57d8427a24698
+  specs:
+    opal-haml (0.4.0)
+      haml
+      opal (>= 0.5.0, < 1.0.0)
+
+GIT
+  remote: git://github.com/opal/opal-jquery.git
+  revision: 5f6662498a81294edfb269eaf7b781f8bf94a292
+  specs:
+    opal-jquery (0.4.0)
+      opal (>= 0.7.0, < 0.9.0)
+
+GIT
+  remote: git://github.com/opal/opal.git
+  revision: 52f9967a5741b9169e020f9c3ab624b7550d2ccf
+  tag: v0.8.0
+  specs:
+    opal (0.8.0)
+      hike (~> 1.2)
+      sourcemap (~> 0.1.0)
+      sprockets (~> 3.1)
+      tilt (>= 1.4)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    coderay (1.1.0)
+    ffi (1.9.10)
+    formatador (0.2.5)
+    guard (2.13.0)
+      formatador (>= 0.2.4)
+      listen (>= 2.7, <= 4.0)
+      lumberjack (~> 1.0)
+      nenv (~> 0.1)
+      notiffany (~> 0.0)
+      pry (>= 0.9.12)
+      shellany (~> 0.0)
+      thor (>= 0.18.1)
+    guard-compat (1.2.1)
+    guard-haml (1.1.2)
+      guard (~> 2.0)
+      haml (>= 3.0)
+    guard-sass (1.6.0)
+      guard (>= 2.8.0)
+      sass (>= 3.1)
+    guard-shell (0.7.1)
+      guard (>= 2.0.0)
+      guard-compat (~> 1.0)
+    haml (4.0.7)
+      tilt
+    hike (1.2.3)
+    listen (3.0.3)
+      rb-fsevent (>= 0.9.3)
+      rb-inotify (>= 0.9)
+    lumberjack (1.0.9)
+    method_source (0.8.2)
+    nenv (0.2.0)
+    notiffany (0.0.7)
+      nenv (~> 0.1)
+      shellany (~> 0.0)
+    pry (0.10.1)
+      coderay (~> 1.1.0)
+      method_source (~> 0.8.1)
+      slop (~> 3.4)
+    rack (1.6.4)
+    rb-fsevent (0.9.5)
+    rb-inotify (0.9.5)
+      ffi (>= 0.5.0)
+    sass (3.4.18)
+    shellany (0.0.1)
+    slop (3.6.0)
+    sourcemap (0.1.1)
+    sprockets (3.3.3)
+      rack (~> 1.0)
+    thor (0.19.1)
+    tilt (2.0.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  guard
+  guard-haml
+  guard-sass
+  guard-shell
+  haml
+  opal!
+  opal-haml!
+  opal-jquery!
+
+BUNDLED WITH
+   1.10.5
