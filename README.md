@@ -2,7 +2,7 @@ Opalnw-boilerplate
 ==================
 
 
-This repository contains all files neccesary to start developing an application with [Opalrb][http://opalrb.org/] and [nwjs][http://nwjs.io/]
+This repository contains all files neccesary to start developing an application with [Opalrb](http://opalrb.org/) and [nwjs](http://nwjs.io/)
 
 
 Requirements
